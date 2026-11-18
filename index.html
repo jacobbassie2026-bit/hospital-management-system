@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="JACOB Medical Center — thoughtful care, made simple.">
+  <title>JACOB Medical Center | Thoughtful care, made simple</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-page">
+  <header class="site-header sidebar-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="JACOB Medical Center home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span><strong>JACOB</strong><small>Medical Center</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="patients.html">Patients</a>
+        <a href="doctors.html">Doctors</a>
+        <a href="appointments.html">Appointments</a>
+        <a href="medical-records.html">Medical records</a>
+        <a href="reports.html">Reports</a>
+      </nav>
+      <a class="button button-dark nav-cta" href="dashboard.html">Open dashboard <span>↗</span></a>
+      <a class="sidebar-support" href="tel:18005550184">Need help?<strong>Call 1 800 555 0184</strong></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shape hero-shape-one"></div>
+      <div class="hero-shape hero-shape-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="pulse-dot"></span> Welcome to JACOB</div>
+          <h1>Care that sees <em>the whole</em> you.</h1>
+          <p class="hero-text">Welcome to JACOB Medical Center — expert medicine, warm people, and a simpler way to feel your best.</p>
+          <div class="hero-actions" id="dashboard">
+            <a class="button button-teal" href="#appointment">Find a specialist <span>↗</span></a>
+            <a class="play-link" href="dashboard.html"><span class="play-icon">↗</span> Patient dashboard</a>
+          </div>
+          <div class="trust-row">
+            <div class="avatar-stack" aria-hidden="true">
+              <span class="avatar avatar-1"></span><span class="avatar avatar-2"></span><span class="avatar avatar-3"></span>
+            </div>
+            <div><strong>4.9/5</strong><span>from 2,000+ patients</span></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-backdrop"></div>
+          <div class="hero-photo">
+            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1000&q=85" alt="Doctor smiling in a bright clinic">
+          </div>
+          <div class="floating-note note-top"><span class="note-icon">✦</span><div><strong>98%</strong><small>patient satisfaction</small></div></div>
+          <div class="floating-note note-bottom"><span class="calendar-icon">▣</span><div><strong>Care, on your terms</strong><small>Same-week appointments available</small></div><span class="arrow">↗</span></div>
+          <span class="visual-star star-one">✦</span><span class="visual-star star-two">✦</span>
+        </div>
+      </div>
+      <div class="container hero-footer">
+        <div class="scroll-hint"><span class="scroll-line"></span> Scroll to explore</div>
+        <div class="hero-foot-note">Your health is personal.<br><strong>Your care should be too.</strong></div>
+      </div>
+    </section>
+
+    <section class="intro section-pad" id="about">
+      <div class="container intro-grid">
+        <div>
+          <div class="section-label">01 / Our promise</div>
+          <h2>Good healthcare<br><em>feels different.</em></h2>
+        </div>
+        <div class="intro-copy">
+          <p>We believe the best care starts with listening. Our teams bring deep expertise and a human touch to every visit, so you can move forward with confidence.</p>
+          <a class="text-link" href="#care">Discover our approach <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="care-section section-pad" id="care">
+      <div class="container">
+        <div class="section-heading">
+          <div><div class="section-label light-label">02 / Find your care</div><h2>Here for every<br><em>chapter of life.</em></h2></div>
+          <a class="text-link light-link" href="#specialists">View all services <span>↗</span></a>
+        </div>
+        <div class="care-cards">
+          <article class="care-card active-card"><span class="card-number">01</span><span class="card-icon">◒</span><h3>Primary<br>care</h3><p>Your everyday partner in health.</p><span class="card-arrow">↗</span></article>
+          <article class="care-card"><span class="card-number">02</span><span class="card-icon">✣</span><h3>Specialty<br>care</h3><p>Expertise for what matters most.</p><span class="card-arrow">↗</span></article>
+          <article class="care-card"><span class="card-number">03</span><span class="card-icon">♡</span><h3>Women's<br>health</h3><p>Care through every stage.</p><span class="card-arrow">↗</span></article>
+          <article class="care-card"><span class="card-number">04</span><span class="card-icon">⌁</span><h3>Urgent<br>care</h3><p>Here when life can't wait.</p><span class="card-arrow">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="dashboard-panel section-pad" id="dashboard-panel">
+      <div class="container dashboard-grid">
+        <div>
+          <div class="section-label">05 / Patient access</div>
+          <h2>Your care,<br><em>all in one place.</em></h2>
+        </div>
+        <div class="dashboard-copy">
+          <p>Manage appointments, view medical records, request refills, and stay connected with your care team through the JACOB dashboard.</p>
+          <a class="button button-dark" href="dashboard.html">Access patient dashboard <span>↗</span></a>
+        </div>
+      </div>
+      <div class="container home-dashboard-cards" aria-label="Hospital dashboard shortcuts">
+        <a class="home-dashboard-card" href="patients.html"><span class="home-card-icon">♙</span><strong>Patients</strong><small>Manage patient profiles</small><span class="home-card-arrow">↗</span></a>
+        <a class="home-dashboard-card" href="doctors.html"><span class="home-card-icon">✚</span><strong>Doctors</strong><small>View our care team</small><span class="home-card-arrow">↗</span></a>
+        <a class="home-dashboard-card" href="appointments.html"><span class="home-card-icon">◫</span><strong>Appointments</strong><small>Schedule and review visits</small><span class="home-card-arrow">↗</span></a>
+        <a class="home-dashboard-card" href="medical-records.html"><span class="home-card-icon">▤</span><strong>Medical records</strong><small>Access health information</small><span class="home-card-arrow">↗</span></a>
+      </div>
+    </section>
+
+    <section class="specialists section-pad" id="specialists">
+      <div class="container specialist-grid">
+        <div class="specialist-image"><img src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=1000&q=85" alt="Medical team collaborating"></div>
+        <div class="specialist-copy"><div class="section-label">03 / Care, connected</div><h2>Meet the people<br>behind <em>the care.</em></h2><p>From your first hello to your follow-up, our multidisciplinary teams work together around one goal: helping you live well.</p><div class="stat-row"><div><strong>250+</strong><span>caring specialists</span></div><div><strong>36</strong><span>areas of expertise</span></div></div><a class="button button-outline" href="#appointment">Meet our specialists <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="appointment section-pad" id="appointment">
+      <div class="container appointment-box">
+        <div><div class="section-label light-label">04 / Your next step</div><h2>Let's make time<br>for <em>your health.</em></h2></div>
+        <div class="appointment-action"><p>Ready to get started? Finding the right care is easy.</p><a class="button button-light" href="tel:18005550184">Call 1 800 555 0184 <span>↗</span></a><small>Mon–Fri, 8am–6pm</small></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-wrap"><a class="brand footer-brand" href="index.html"><span>JACOB<span class="brand-dot">.</span><small>Medical Center</small></span></a><span>Thoughtful care, made simple.</span><span>© 2024 JACOB Medical Center</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
